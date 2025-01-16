@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.student-card {
+    width: 300px;
+    border: 1px solid rgba(209, 209, 209, 0.1);
+    border-radius: 4px;
+    display: flex;
+    padding: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.student-card img {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+}

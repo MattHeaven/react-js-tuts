@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 32px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    width: fit-content;
+    border-radius: 16px;
+    height: 200px;
+    text-align: left;
+    align-items: start;
+    justify-content: end;
+    min-width: 400px;
+    background-image: url();
+    cursor: pointer;
+    transition-duration: 0.8s;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+}
+
+.profit {
+    background-color: rgb(0, 75, 0);
+}
+
+p {
+    font-size: 16px;
+}
+
+.amount {
+    font-size: 60px;
+    line-height: 60px;
+    font-family: 'Bahnschrift', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
